@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "What is Business Intelligence?"
-description: "BI란 무엇인가, BI는 어떻게 구성 요소에는 무엇이 있는가에 대한 포스팅입니다."
+title: "[BigData] What is Business Intelligence?"
+description: "What is BI(Business Intelligence)? What are the components of BI?, BI란 무엇이고, BI를 구성하는 요소에는 무엇이 있을까?"
 categories: [BigData]
 tags: [BI, BigData]
 redirect_from:
@@ -24,7 +24,7 @@ redirect_from:
 
  비즈니스 인텔리전스를 이해하기 위해서는 위에서 언급한 시스템 및 기술들에 대한 이해가 선행되어야 한다.
 
-
+<br>
 
 ### 출처
 

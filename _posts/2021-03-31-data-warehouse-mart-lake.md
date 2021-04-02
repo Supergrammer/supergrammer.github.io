@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "What is DW, DM, DL?"
-description: "DW, DM, DL은 무엇인가에 대해 다룬 포스팅입니다."
+title: "[BigData] What is DW, DM, DL?"
+description: "What is DW(Data Warehouse), DM(Data Mart), DL(Data Lake)? DW, DM, DL이란 무엇일까?"
 categories: [BigData]
 tags: [DW, DM, DL, BigData]
 redirect_from:
@@ -34,26 +34,22 @@ redirect_from:
   - 데이터의 변동은 한번에 이루어지므로 트랜잭션이나 리커버리, 동시성 제어 매커니즘이 필요하지 않다.
   - DW 에서는 데이터의 삭제, 업데이트, 삽입이 무시되며 데이터 액세스와 로딩만 허용된다.
 
-
-
-
+<br>
 
 # 데이터 마트(Data Mart, DM)
 
  **데이터 마트(Data Mart, DM)** 는 데이터 웨어하우스 환경에서 전사적으로 생성, 관리되는 데이터에 대해 목적에 따라 사용자에게 제공하는 역할을 한다. 데이터 웨어하우스의 범위가 전사적 범위였다면, 데이터 마트는 특정 조직, 팀에서 사용하는 것을 목적으로 한다.
 
-
-
-
+<br>
 
 # 데이터 레이크 (Data Lake, DL)
 
  이 밖에도 데이터 웨어하우스의 상위 개념인 **데이터 레이크(Data Lake, DL)** 라는 개념이 있는데, 이는 일관적인 형태로 변환하기 이전의 데이터 소스를 그대로 가져와 저장해 다양성을 보존하는 것을 목적으로 한다. 데이터 웨어하우스는 모든 분석 요구에 대해 하나의 스키마를 사용하는데, 이는 대규모 조직에서는 데이터를 분석하기에 적합한 형태가 아니다. 기업은 데이터 레이크를 통해 비용 절감, 데이터 관리 간소화, AI, ML 통합 대비, 분석 속도, 보안 향상 등의 이점을 얻을 수 있다.
 
-
+<br>
 
 ### 출처
 
 - [데이터 웨어하우스, 위키백과](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%9B%A8%EC%96%B4%ED%95%98%EC%9A%B0%EC%8A%A4)
-- [Data Warehouse(DW)란?, ](https://loustler.io/data_eng/what-is-dw/)
+- [Data Warehouse(DW)란?](https://loustler.io/data_eng/what-is-dw/)
 - [데이터 마트, 위키백과](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%A7%88%ED%8A%B8)
