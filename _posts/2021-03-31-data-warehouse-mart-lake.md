@@ -8,6 +8,8 @@ redirect_from:
   - /2021/03/31/
 ---
 
+* Kramdown table of contents
+{:toc .toc}
 # 데이터 웨어하우스(Data Warehouse, DW)
 
  **데이터 웨어하우스(Data Warehouse, DW)** 는 정보(Data)와 창고(Warehouse)의 의미가 합성되어 만든 단어로, 조직 내에서 분산되어 운영되는 각각의 데이터베이스 관리 시스템들을 효율적으로 통합해 조정, 관리하는 역할을 한다. 데이터 웨어하우스의 구성은 관리 하드웨어, 소프트웨어, 추출, 변환, 정렬 도구, 데이터베이스 마케팅 시스템, 메타 데이터(meta data), 사용자 접근 및 활용 도구 등으로 구성된다.
@@ -48,7 +50,7 @@ redirect_from:
 
 <br>
 
-### 출처
+# Source
 
 - [데이터 웨어하우스, 위키백과](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%9B%A8%EC%96%B4%ED%95%98%EC%9A%B0%EC%8A%A4)
 - [Data Warehouse(DW)란?](https://loustler.io/data_eng/what-is-dw/)

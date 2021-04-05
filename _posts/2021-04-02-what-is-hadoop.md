@@ -3,15 +3,16 @@ layout: post
 title: "[BigData] What is Hadoop?"
 description: "What is Hadoop? Hadoop이란 무엇일까?"
 categories: [BigData]
-image: http://drive.google.com/uc?export=view&id=1Nj3qchdZHSsxjO1kCuuKieTymUEjdHwm
 tags: [Hadoop, BigData]
 redirect_from:
   - /2021/04/02/
 ---
 
+* Kramdown table of contents
+{:toc .toc}
 # Hadoop 이란?
 
-<img src='http://drive.google.com/uc?export=view&id=1Nj3qchdZHSsxjO1kCuuKieTymUEjdHwm' />
+<img src='http://drive.google.com/uc?export=view&id=1Nj3qchdZHSsxjO1kCuuKieTymUEjdHwm' style='display:block;margin:auto'/>
 
  **하둡(Hadoop)**이란 무엇일까? Hadoop은 **High-Availability Distributed Object-Oriented Platform** 의 약자이며, 일반 서버로 구성된 클러스터 환경에서 분산 파일시스템과 대량의 자료 처리를 위한 분산 처리 시스템을 제공하는 아파치 소프트웨어 재단(Apache Software Foundation, ASF)의 프레임워크로, 빅데이터 처리 및 분석을 위한 플랫폼 중 표준으로 자리잡고 있다.
 
@@ -33,7 +34,7 @@ redirect_from:
 
  하둡의 코어 프로젝트를 포함하는 **하둡 에코시스템(Hadoop EcoSystem)**은 하둡 프레임워크를 이루고 있는 다양한 서브 프로젝트들의 모임이라고 할 수 있다. 하둡 에코시스템은 분산 코디네이터, 리소스 관리, 데이터 저장, 수집, 처리 등과 같은 데이터 처리와 관련된 모든 부분을 포함하고 있다.
 
-<img src='http://drive.google.com/uc?export=view&id=1OtxFxaWUNXkjJHVmKHNV1m64_IyCA1AG' />
+<img src='http://drive.google.com/uc?export=view&id=1OtxFxaWUNXkjJHVmKHNV1m64_IyCA1AG' style='display:block;margin:auto;width:100%;max-width:1000px'/>
 
 출처 : [1004jonghee, 하둡에코시스템(Hadoop Eco System) Ver 1.0](https://1004jonghee.tistory.com/m/entry/1004jonghee-%ED%95%98%EB%91%A1%EC%97%90%EC%BD%94%EC%8B%9C%EC%8A%A4%ED%85%9CHadoop-Eco-System-Ver-10?category=419383)
 
@@ -136,7 +137,7 @@ redirect_from:
 
 <br>
 
-### 출처
+# Source
 
 - [아파치 하둡, 위키백과](https://ko.wikipedia.org/wiki/%EC%95%84%ED%8C%8C%EC%B9%98_%ED%95%98%EB%91%A1)
 - [Hadoop, The Definitive Guide](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632/ref=sr_1_1?crid=2KZJS9HA1GPUG&dchild=1&keywords=hadoop+the+definitive+guide&qid=1617331902&s=books&sprefix=hadoop%3A+the+def%2Cstripbooks-intl-ship%2C319&sr=1-1)
