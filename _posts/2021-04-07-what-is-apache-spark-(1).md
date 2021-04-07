@@ -42,11 +42,11 @@ redirect_from:
 
  첫째로, RAM 은 Disk 와는 다르게 read/write 작업이 사라져 반복 작업의 효율이 증가하는 이점을 가질 수 있다.
 
-<img src='http://drive.google.com/uc?export=view&id=1cNMTPhXzGmPu0U97CGfyiU_1XhkT8l11' style='display:block;margin:auto'/>
+<img src='http://drive.google.com/uc?export=view&id=1cNMTPhXzGmPu0U97CGfyiU_1XhkT8l11' style='display:block;margin:auto;width:100%;max-width:1000px'/>
 
  둘째로, 쿼리 작업으로 발생하는 중간 결과물에 대해 Disk 에 저장할 필요가 없어진다. 이로 인해 read/write 연산에 드는 비용을 절약할 수 있다.
 
-<img src='http://drive.google.com/uc?export=view&id=1A9vioIhgKmZxSS8J-2M0u09mZoBMi4DK' style='display:block;margin:auto'/>
+<img src='http://drive.google.com/uc?export=view&id=1A9vioIhgKmZxSS8J-2M0u09mZoBMi4DK' style='display:block;margin:auto;width:100%;max-width:1000px'/>
 
  마지막으로, 동일 데이터 연산 작업으로 인한 반복적인 read 연산에 드는 비용을 절약할 수 있다.
 
