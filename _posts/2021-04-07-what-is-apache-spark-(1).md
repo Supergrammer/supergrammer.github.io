@@ -14,9 +14,9 @@ redirect_from:
 
 <img src='http://drive.google.com/uc?export=view&id=1ltCuxulAn_D59LoWYoaxOl2Zhaau5fYW' style='display:block;margin:auto;width:100%;max-width:750px'/>
 
- 아파치 스파크(Apache Spark)는 SQL, 스트리밍, 머신 러닝과 그래프 처리를 위한 기본 제공 모듈이 있는 대규모 데이터 처리용 통합 분석 엔진이다. 스파크는 저번에 소개했던 하둡 에코시스템에 포함된 프로젝트의 하나로, 하둡의 데이터 처리 과정에서 DISK 기반 데이터 처리의 문제점을 보완하고자 등장했다.
+ 아파치 스파크(Apache Spark)는 SQL, 스트리밍, 머신 러닝과 그래프 처리를 위한 기본 제공 모듈이 있는 대규모 데이터 처리용 통합 분석 엔진이다. 스파크는 저번에 소개했던 하둡 에코시스템에 포함된 프로젝트의 하나로, 하둡의 데이터 처리 과정에서 Disk 기반 데이터 처리의 문제점을 보완하고자 등장했다.
 
- 아파치 스파크는 인메모리 기반의 대용량 데이터 고속 처리와 범용 분산 클러스터에서 컴퓨팅이 가능하고, JAVA, Python, Scala, R 등의 언어 기반으로 구동할 수 있다는 특징이 있다.
+ 아파치 스파크는 인메모리(In-Memory) 기반의 대용량 데이터 고속 처리와 범용 분산 클러스터에서 컴퓨팅이 가능하고, JAVA, Python, Scala, R 등의 언어 기반으로 구동할 수 있다는 특징이 있다.
 
 <br>
 
@@ -26,7 +26,7 @@ redirect_from:
 
 <img src='http://drive.google.com/uc?export=view&id=1M7xX4VCX3bMurC2ZMClRBqtdjvzT1rmr' style='display:block;margin:auto'/>
 
- 위와 같이 Input Data 는 클러스터에 분산 저장되고, Map-Reduce 과정을 거쳐 Output Data 를 출력한다. 이 과정에서 Disk 기반 데이터 처리의 문제점이 나타난다.
+ 위와 같이 Input Data 는 클러스터에 분산 저장되고, Map-Reduce 과정을 거쳐 Output Data 를 출력한다. 이 과정에서 Disk 기반 데이터 처리의 문제점이 나타난다. 이는 다음과 같다.
 
 <br>
 
@@ -52,9 +52,7 @@ redirect_from:
 
  위와 같은 이유로 Disk 기반의 데이터 프로세싱을 In-Memory 기반 분산처리 프로세스로 바꾸려는 시도가 있었는데, 처음 등장한 것이 Piccolo 였다. 이는 기존 Hadoop 의 Disk 기반 처리에 비해 프로세싱 속도가 빨랐지만, Fault-tolerance(장애 처리) 과정이 상대적으로 복잡했기 때문에 성능이 많이 떨어진다는 단점이 있었다.
 
- 이러한 단점을 
-
-
+ 이러한 단점을 보완하고 Hadoop 환경에서의 대규모 데이터 처리 및 분석을 위해 등장한 프레임워크가 Spark이다. Spark 의 특징에 대해서는 다음 포스팅에서 다뤄 보도록 하자.
 
 <br>
 
