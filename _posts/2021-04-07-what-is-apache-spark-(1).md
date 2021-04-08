@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[BigData] What is Apache Spark? (1)"
-description: "What is Apache Spark? Apache Spark란 무엇일까?"
+title: "[BigData] What is Apache Spark? - (1) Apache Spark 의 등장"
+description: "What is Apache Spark? Apache Spark 란 무엇일까? Apache Spark 의 등장 배경"
 categories: [BigData]
 tags: [Spark, BigData]
 redirect_from:
