@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[BigData] What is Hadoop?"
-description: "What is Hadoop? Hadoop이란 무엇일까?"
+description: "What is Hadoop? Hadoop 이란 무엇일까?"
 categories: [BigData]
 tags: [Hadoop, BigData]
 redirect_from:

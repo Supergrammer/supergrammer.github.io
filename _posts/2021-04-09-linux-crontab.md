@@ -47,6 +47,8 @@ $ crontab -u [Username] -option
 $ crontab -u supergrammer -e
 ```
 
+<br>
+
 # Crontab 의 주기
 
  Crontab 파일의 **각 줄은 하나의 잡 스케줄(Job Schedule)을 의미**하며, 각 한 줄의 구조는 아래 그림과 같다. 요일은 0 ~ 6 으로 표시되었지만, OS 나 버전에 따라서 0, 7 모두 일요일인 경우도 있다.
